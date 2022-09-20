@@ -4,7 +4,7 @@ beforeEach(() => {
   // sets everything back to initial state after each test
   fetch.resetMocks();
 })
-// describe is a jest method that contains one or more related tests.
+
 describe('receives values from GitHub REST API using jest fetch mock', () => {
   test("receives GitHub name", async () => {
     fetch.mockResponseOnce(JSON.stringify({name: 'coder'}))

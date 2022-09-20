@@ -23,7 +23,7 @@ function App() {
         <a href={gitHubURL}><button>Link to GitHub profile</button></a>
       </div>
       <div className="pt-5">
-        <img src={gitHubImageURL} alt='Github profile image' width='200' height='200'/>
+        <img src={gitHubImageURL} alt='' width='200' height='200'/>
       </div>
     </div>
   );
